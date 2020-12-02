@@ -77,8 +77,9 @@ def dqn():
 
             log.log(episode, avg_score=avg_score, min_score=min_score,
                     max_score=max_score)
-
-            # agent.save(f'ckpts/{scores[-1]}_model.ckpt')
+            
+            # Save Weights
+            agent.save(f'ckpts/{scores[-1]}_model.ckpt')
 
 if __name__ == "__main__":
     dqn()
