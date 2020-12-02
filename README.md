@@ -4,13 +4,11 @@
 
 ## Navigate Through the Files
 
-<ul>
-    <li>**agent.py**: define the class `DQNAgent`</li>
-    <li>**tetris.py**: create the environment `Tetris`</li>
-    <li>**run.py**: train the model and store weights in `ckpts/`  </li>
-    <li>logs.py: log historical data (e.g. avg_score) in `logs/` </li>
-    <li>eval.py: load weights and evaluate </li>
-</ul>
+- **agent.py**: define the class `DQNAgent`
+- **tetris.py**: create the environment `Tetris`
+- **run.py**: train the model and store weights in `ckpts/`  
+- logs.py: log historical data (e.g. avg_score) in `logs/` 
+- eval.py: load weights and evaluate 
 
 ## Attributes Used as Game State
 
