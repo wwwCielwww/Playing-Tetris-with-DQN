@@ -1,0 +1,7 @@
+tensorflow-cpu==1.14.0
+tensorboard==1.14.0
+Keras==2.2.4
+opencv-python
+numpy
+Pillow
+tqdm
